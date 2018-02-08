@@ -1,0 +1,1988 @@
+Started GET "/" for 127.0.0.1 at 2018-02-06 07:34:23 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (14.6ms)
+Completed 200 OK in 874ms (Views: 60.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-06 19:16:46 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (14.0ms)
+Completed 200 OK in 22ms (Views: 19.4ms)
+
+
+Started GET "/Tarea1" for 127.0.0.1 at 2018-02-06 19:17:18 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (62.7ms)
+Completed 500 Internal Server Error in 73ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+ <div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/" for 127.0.0.1 at 2018-02-06 19:19:14 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (11.0ms)
+Completed 200 OK in 563ms (Views: 50.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2018-02-06 19:19:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/Tarea1" for 127.0.0.1 at 2018-02-06 19:19:34 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 16ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+ <div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:21:35 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+ <div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:23:12 -0600
+Processing by PageController#home as HTML
+Completed 406 Not Acceptable in 47ms
+
+
+  
+ActionController::UnknownFormat (PageController#home is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/home" for 127.0.0.1 at 2018-02-06 19:24:20 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+ <div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:26:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/tarea"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:26:22 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 3455ms (Views: 3452.4ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:29:35 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 89ms (Views: 82.7ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:30:03 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:30:21 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section id="about">
+  <div class="container-fluid">
+    
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+  
+  </div>
+</section>):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:30:24 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section id="about">
+  <div class="container-fluid">
+    
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+  
+  </div>
+</section>):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:30:34 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 16ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section id="about">
+  
+    
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+  
+ 
+</section>):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:30:59 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+  <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:31:13 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+  <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:31:16 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+  <h2>About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:31:25 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+  <div class="container">
+    <h1>Hello my name is __</h1>
+    <p>I make Rails apps.</p>
+  </div>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+  <h2>About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:34:46 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+    <section id="about">
+    <div class="container-fluid">
+      <div class="jumbotron">
+       <h2 class="text-center text-primary">About Me</h2>
+        <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+     </div>
+    </div>
+  </section>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:34:47 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+    <section id="about">
+    <div class="container-fluid">
+      <div class="jumbotron">
+       <h2 class="text-center text-primary">About Me</h2>
+        <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+     </div>
+    </div>
+  </section>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:34:48 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 16ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+    <section id="about">
+    <div class="container-fluid">
+      <div class="jumbotron">
+       <h2 class="text-center text-primary">About Me</h2>
+        <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+     </div>
+    </div>
+  </section>
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:35:03 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="main">
+    
+        <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+     
+</div>
+
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:35:11 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 132ms (Views: 129.4ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:41:11 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18769ms (Views: 18287.2ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:41:50 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:42:44 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+
+
+<section id="project">
+ 
+    <h2 class="text-primary text-center">My Projects</h2>
+    <div class="row">
+          <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+          <img src="http://blogs.upn.edu.pe/servicios-globales/wp-content/uploads/sites/16/2017/04/upn_blog_ser-glo_laureate-shark-tank_03-abr.jpg"  class="img-responsive" style="position: relative; left: 5px;">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+         
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-5">
+       
+         <img src="https://tettra.co/wp-content/logos/github.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       
+      </a>
+      
+      <a href="https://rails5-forum.herokuapp.com/posts" target="_blank" class="col-md-4 col-sm-6">
+       <div class="thumbnail">
+         <img src="https://i.imgur.com/SxptFaA.png" alt="Rails Forum" class="img-responsive">
+         <div class="caption">
+           Forum App: Ruby on Rails Forums App.
+         </div>
+       </div> 
+      </a>
+       
+    </div>
+  
+</section>
+
+
+
+
+<footer id="contact" class="container-fluid" style="width: 500px; height: 200px; position: relative; top: 50px; >
+  <hr>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <p class="copyright">Didier Murillo Tarea#1</p> 
+    
+  <div class="col-md-4">
+    <div class="social-icons">
+        <a href="https://github.com/DidierMurillo/" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+        <a href="https://twitter.com/cecheverri4" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+    </div>
+  </div>
+    </div>    
+</footer>
+  div class=col-md-8
+    div class=jumbotron
+      p class=copyrightDidier Murillo Tarea#1p 
+    
+  div class=col-md-4
+    div class=social-icons
+        a href=httpsgithub.comDidierMurillo target=_blanki class=fa fa-2x fa-githubia
+        a href=httpstwitter.comcecheverri4 target=_blanki class=fa fa-2x fa-twitteria
+    div
+  div
+    div    
+footer):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:42:58 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 91ms (Views: 87.7ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:44:49 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 199ms (Views: 195.4ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:45:39 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 57ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "100%": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:6
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352672287500'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:46:11 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 47ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...bg-static.jpg')": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352638131160'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:46:49 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 39ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...bg-static.jpg')": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352680521820'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:46:53 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 39ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...bg-static.jpg')": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352369953160'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:48:05 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 57ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...bg-static.jpg')": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352677519420'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:48:27 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 44ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...jpg') 1px, bold": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352642416360'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:48:44 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 60ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "0 auto": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:9
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352672585940'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:49:03 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 65ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "80px": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:17
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352638291440'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:49:31 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 70ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "0 auto": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:18
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352734780320'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:50:04 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 60ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...-width: 800px) ": expected media query list, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:34
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352677475020'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:50:24 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 2051ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "html, body ": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352717071660'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:51:53 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 38ms
+
+
+  
+ActionView::Template::Error (Invalid @import: expected end of line, was ";".):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352679421880'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:52:07 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 47ms
+
+
+  
+ActionView::Template::Error (Invalid @import: expected end of line, was ";".):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:2
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352370110320'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:53:50 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 2057ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "html, body ": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352677757820'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:54:51 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 2057ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "html, body": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352640360060'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:56:19 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 1983ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "html, body": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352672700140'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:56:26 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 1985ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "html, body": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352725921220'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:56:40 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 45ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "100%": expected expression (e.g. 1px, bold), was ";"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:6
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352677932080'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:56:52 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 2046ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "body ": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:6
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352728352360'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 19:57:40 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 2132ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after ".container ": expected selector, was "{"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.sass:8
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352679565720'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:00:55 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 57ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin": expected ";", was ": 0"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352720616460'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:01:24 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 55ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  margin": expected ";", was ": 0;"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352638088680'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:01:33 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 34ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ckground-repeat": expected ";", was ": no-repeat"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:12
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352722691640'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:01:56 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 45ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  width": expected ";", was ": 960px"):
+    4:     <title>Tarea1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:19
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2697620143168041007_70352677102940'
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:02:31 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8334ms (Views: 8330.5ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:02:57 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:04:40 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 533ms
+
+
+  
+ActionView::Template::Error (Your template was not saved as valid UTF-8. Please either specify UTF-8 as the encoding for your template in your text editor, or mark the template with its encoding by inserting the following as the first line of the template:
+
+# encoding: <name of correct encoding>.
+
+The source of your template was:
+
+<div class="NavBar">
+  <a href="#about">About</a>
+  <a href="#project">Project</a>
+  <a href="#contact">Contact</a>
+</div> 
+
+<section id="about">
+  <div class="container-fluid">
+    <div class="jumbotron">
+     <h2 class="text-center text-primary">About Me</h2>
+  <p>Hi, my name is Cristian Echeverría Martínez, I have a Bs. in Computer Science and a Master degree in Project Management, with 10 years of experience as a Professor at</p>
+
+   </div>
+  </div>
+</section>
+):
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:08:54 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1353ms (Views: 843.6ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:13:14 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 185ms (Views: 177.3ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:14:34 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 122ms (Views: 111.2ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:15:45 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 164ms (Views: 158.3ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:17:06 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 163ms (Views: 153.7ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:18:21 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 92ms (Views: 87.1ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:19:07 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 118ms (Views: 115.2ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:21:40 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 104ms (Views: 98.2ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:22:47 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 81ms (Views: 77.7ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:32:38 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 104ms (Views: 101.4ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:33:14 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 119ms (Views: 114.5ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:33:58 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 113ms (Views: 109.9ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-06 20:35:11 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 93ms (Views: 89.6ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 07:49:21 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1607ms (Views: 1527.3ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 19:43:30 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 37604ms (Views: 37452.8ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 19:47:19 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 8070ms (Views: 8066.7ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 19:48:01 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8368ms (Views: 8365.1ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 20:15:30 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 151ms (Views: 148.5ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 20:24:44 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 103.3ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 21:04:10 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 188ms (Views: 181.5ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 21:04:45 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 180ms (Views: 176.8ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 21:04:50 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 185ms (Views: 181.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 22:06:15 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/didiermurillo/.rvm/gems/ruby-2.5.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (8.4ms)
+Completed 200 OK in 501ms (Views: 18.8ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 22:09:08 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1335ms (Views: 1331.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 22:09:45 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 181ms (Views: 173.9ms)
+
+
+Started GET "/tarea" for 127.0.0.1 at 2018-02-07 22:19:14 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/tarea"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-07 22:19:17 -0600
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1027ms (Views: 646.4ms)
+
+
